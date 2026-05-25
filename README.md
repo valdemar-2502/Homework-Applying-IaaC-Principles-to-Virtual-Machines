@@ -29,6 +29,13 @@
 
 Примечание: Облачная ВМ с Linux в данной задаче не подойдёт из-за ограничений облачного провайдера. У вас просто не установится virtualbox.
 
+## Решение
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/01_virtualbox.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/02_vagrant.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/03_packer.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/04_yc.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/05_yc_plugin.png)
+
 ## Задача 2
 
 1. Убедитесь, что у вас есть ssh ключ в ОС или создайте его с помощью команды ```ssh-keygen -t ed25519```
@@ -56,6 +63,24 @@ Error: The requested URL returned error: 404:
  Попробуйте в этом случае выполнить в Windows от администратора команду `bcdedit /set hypervisorlaunchtype off` и перезагрузиться.
 
 - Если ваша рабочая станция в меру различных факторов не может запустить вложенную виртуализацию - допускается неполное выполнение(до ошибки запуска ВМ)
+
+## Решение
+
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/06_ubuntu-20.04.box.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/07_ubuntu-20.04.box.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/08_ubuntu-20.04.box.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/09_vm_ubuntu.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/10_yc_packer.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/11_yc_packer2.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/12_yc_image.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/13_vm_image_yc.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/14_vm_yc.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/15_vm_yc2.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/16_vm_yc3.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/17_vm_yc4.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/18_yc_image.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/19_yc_image2.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/20_vm_yc_ubuntu.png)
 
 ## Задача 3
 
