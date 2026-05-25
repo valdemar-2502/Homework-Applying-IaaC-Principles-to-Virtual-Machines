@@ -71,6 +71,8 @@ Error: The requested URL returned error: 404:
 ![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/08_ubuntu-20.04.box.png)
 ![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/09_vm_ubuntu.png)
 
+![Vagrantfile](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/Vagrantfile)
+
 
 ## Задача 3
 
