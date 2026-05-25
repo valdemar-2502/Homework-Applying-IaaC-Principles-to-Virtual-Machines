@@ -1,0 +1,56 @@
+packer {
+  required_plugins {
+    yandex = {
+      version = ">= 1.1.3"
+      source  = "github.com/hashicorp/yandex"
+    }
+  }
+}
+
+source "yandex" "ubuntu_docker" {
+  token               = "xxxxx"
+  folder_id           = "xxxxx"
+  zone                = "ru-central1-a"
+  subnet_id           = "xxxxx"
+
+  source_image_family = "ubuntu-2004-lts"
+  image_name          = "ubuntu-20-04-docker"
+  image_description   = "Ubuntu 20.04 with Docker, htop, tmux"
+
+  ssh_username        = "ubuntu"
+  use_ipv4_nat        = true
+
+  disk_type           = "network-hdd"
+}
+
+build {
+  sources = ["source.yandex.ubuntu_docker"]
+
+  provisioner "shell" {
+    inline = [
+      "echo '=== Starting Docker installation ==='",
+
+      "sudo apt-get update -y",
+      "sudo apt-get install -y ca-certificates curl gnupg lsb-release htop tmux",
+
+      "sudo install -m 0755 -d /etc/apt/keyrings",
+      "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg",
+      "sudo chmod a+r /etc/apt/keyrings/docker.gpg",
+
+      "echo \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo \"$VERSION_CODENAME\") stable\" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null",
+
+      "sudo apt-get update -y",
+      "sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin",
+
+      "sudo systemctl enable docker",
+      "sudo systemctl start docker",
+      "sudo usermod -aG docker ubuntu",
+
+      "echo '=== Docker installation completed ==='",
+      "docker --version",
+      "docker compose version",
+      "htop --version",
+      "tmux -V"
+    ]
+  }
+}
