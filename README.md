@@ -98,6 +98,6 @@ Error: The requested URL returned error: 404:
 ![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/19_yc_image2.png)
 ![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/20_vm_yc_ubuntu.png)
 
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/20_vm_yc_ubuntu.png)
+![mydebian.json.pkr.hcl.clean](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/mydebian.json.pkr.hcl.clean)
 
 
