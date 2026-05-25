@@ -70,17 +70,7 @@ Error: The requested URL returned error: 404:
 ![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/07_ubuntu-20.04.box.png)
 ![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/08_ubuntu-20.04.box.png)
 ![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/09_vm_ubuntu.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/10_yc_packer.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/11_yc_packer2.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/12_yc_image.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/13_vm_image_yc.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/14_vm_yc.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/15_vm_yc2.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/16_vm_yc3.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/17_vm_yc4.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/18_yc_image.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/19_yc_image2.png)
-![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/20_vm_yc_ubuntu.png)
+
 
 ## Задача 3
 
@@ -94,3 +84,20 @@ Error: The requested URL returned error: 404:
 7. Удалите ВМ и образ.
 8. **ВНИМАНИЕ!** Никогда не выкладываете oauth token от облака в git-репозиторий! Утечка секретного токена может привести к финансовым потерям. После выполнения задания обязательно удалите секретные данные из файла mydebian.json и mydebian.json.pkr.hcl. (замените содержимое токена на  "ххххх")
 9. В качестве ответа на задание  загрузите результирующий файл в ваш ЛК.
+
+## Решение
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/10_yc_packer.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/11_yc_packer2.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/12_yc_image.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/13_vm_image_yc.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/14_vm_yc.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/15_vm_yc2.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/16_vm_yc3.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/17_vm_yc4.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/18_yc_image.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/19_yc_image2.png)
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/20_vm_yc_ubuntu.png)
+
+![vagrant](https://github.com/valdemar-2502/Homework-Applying-IaaC-Principles-to-Virtual-Machines/blob/main/screen/20_vm_yc_ubuntu.png)
+
+
